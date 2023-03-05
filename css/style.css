@@ -8,29 +8,30 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  var (--body-color);
+}
+/*============= variables================== */
+:root {
+  --brand-color: #4d5ae5;
+  --brand-lite-color: #2e2f42;
+  --body-color: #434455
 }
 /*  =================== HEAD  =================== */
 
 /* ==============LOGO=================== */
-.logo-page-web {
+.logo-page-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  var (--brand-color);
+  
   word-spacing: none;
 }
 .logo-page-studio {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
-  word-spacing: none;
 }
 /* =======================MENU=========================== */
 .menu-link {
@@ -38,18 +39,18 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  var (--brand-lite-color);
 }
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
 /* =====================ADDRES============================= */
-.contacts-list {
+.contacts {
   font-style: normal;
 }
 
-.contact-mail {
+.contact-link {
   /*  */
   font-size: 16px;
   line-height: 1.5;
@@ -57,18 +58,11 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-mail:hover,
-.contact-mail:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
-.contact-num-tel {
-  /*  */
-  font-size: 16px;
-  line-height: 1.5;
 
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 /* ======================HERO========================== */
 .hero-title {
   font-weight: 700;
@@ -77,8 +71,11 @@
 
   letter-spacing: 0.02em;
   color: #ffffff;
+  background: #2E2F42;
+  text-align: center;
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -87,7 +84,9 @@
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+
   background: #4d5ae5;
+
   cursor: pointer;
 }
 .hero-btn:hover,
@@ -95,7 +94,7 @@
   background: #404bbf;
 }
 .hero {
-  background: #2e2f42;
+  var (--brand-lite-color);
 }
 /* ==================ADVANTAGES================ */
 .page-title {
@@ -104,15 +103,14 @@
   line-height: 1.2;
 
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  var (--brand-lite-color);
 }
 .page-desc {
-  /*  */
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
 
   letter-spacing: 0.02em;
-  color: #434455;
+  var (--body-color);
 }
 /* ========================== WHAT ARE WE DOING================= */
 .caption-section {
@@ -122,7 +120,8 @@
 
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  text-align: center;
+ var (--brand-lite-color);
 }
 /* ======================PAGE PORTFOLIO=========================== */
 
@@ -141,6 +140,7 @@
   color: #ffffff;
 }
 .btn-portfolio {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -149,7 +149,7 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  var (--brand-color);
   cursor: pointer;
   background: #f4f4fd;
 }
@@ -162,7 +162,7 @@
   background: #f4f4fd;
 }
 .footer {
-  background: #2e2f42;
+  var (--brand-lite-color);
 }
 .last {
   color: #e7e9fc;
