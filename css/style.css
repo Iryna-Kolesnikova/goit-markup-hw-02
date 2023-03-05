@@ -6,6 +6,7 @@
 }
 .body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 /*  =================== HEAD  =================== */
@@ -49,7 +50,7 @@
 }
 
 .contact-mail {
-  font-weight: 400;
+  /*  */
   font-size: 16px;
   line-height: 1.5;
 
@@ -61,7 +62,7 @@
   color: #404bbf;
 }
 .contact-num-tel {
-  font-weight: 400;
+  /*  */
   font-size: 16px;
   line-height: 1.5;
 
@@ -87,6 +88,7 @@
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -105,7 +107,7 @@
   color: #2e2f42;
 }
 .page-desc {
-  font-weight: 400;
+  /*  */
   font-size: 16px;
   line-height: 1.2;
 
@@ -133,9 +135,28 @@
   color: #4d5ae5;
   background: #f4f4fd;
   list-style: none;
+  cursor: pointer;
 }
 .btn-all-item {
   color: #ffffff;
+}
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+  background: #f4f4fd;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: #ffffff;
+  background: #404bbf;
 }
 .work-items-team {
   background: #f4f4fd;
