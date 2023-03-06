@@ -14,12 +14,12 @@
 :root {
   --brand-color: #4d5ae5;
   --brand-lite-color: #2e2f42;
-  --body-color: #434455
+  --body-color: #434455;
   --btn-color: #f4f4fd;
   --hover-color: #404bbf;
   --hero-color: #ffffff;
   --last-color: #e7e9fc;
-  --logo-footer-color: #F4F4FD;
+  --logo-footer-color: #f4f4fd;
 }
 
 /*  =================== HEAD  =================== */
@@ -38,7 +38,7 @@
   color: var(--brand-lite-color);
 }
 .logo-page-footer {
- color: var(--logo-footer-color);
+  color: var(--logo-footer-color);
 }
 /* =======================MENU=========================== */
 .menu-link {
@@ -78,9 +78,9 @@
   letter-spacing: 0.02em;
   color: var(--hero-color);
   text-align: center;
-
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -96,7 +96,7 @@
   background: var(--hover-color);
 }
 .hero {
-background: var(--brand-lite-color);
+  background: var(--brand-lite-color);
 }
 
 /* ==================ADVANTAGES================ */
@@ -104,14 +104,12 @@ background: var(--brand-lite-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-
   letter-spacing: 0.02em;
   color: var(--brand-lite-color);
 }
 .page-desc {
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
   color: var(--body-color);
 }
@@ -120,11 +118,10 @@ background: var(--brand-lite-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
- color: var(--brand-lite-color);
+  color: var(--brand-lite-color);
 }
 /* ======================PAGE PORTFOLIO=========================== */
 
@@ -135,7 +132,7 @@ background: var(--brand-lite-color);
 
   letter-spacing: 0.04em;
   color: var(--brand-color);
-  background: #F4F4FD;;
+  background: #f4f4fd;
   list-style: none;
   cursor: pointer;
 }
