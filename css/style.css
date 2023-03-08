@@ -125,17 +125,6 @@
 }
 /* ======================PAGE PORTFOLIO=========================== */
 
-.btn-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-
-  letter-spacing: 0.04em;
-  color: var(--brand-color);
-  background: #f4f4fd;
-  list-style: none;
-  cursor: pointer;
-}
 .btn-all-item {
   color: var(--hero-color);
 }
